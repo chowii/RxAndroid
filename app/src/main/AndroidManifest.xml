@@ -3,6 +3,7 @@
           package="com.example.sabbib.rxjava">
 
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:allowBackup="true"
@@ -19,9 +20,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Gist.GistObservable"
-            android:parentActivityName=".Gist.GistObservable"/>
-        <activity android:name=".image.ImageObservable">
+            android:name=".Gist.GistObservableActivity"
+            android:parentActivityName=".Gist.GistObservableActivity"/>
+        <activity android:name=".image.ImageObservableActivity">
         </activity>
     </application>
 
